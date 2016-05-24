@@ -1,6 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {DataService} from './data.service.ts';
-import {nvD3} from '../node_modules/ng2-nvd3/lib/ng2-nvd3.ts';
+import {DataService} from './data.service';
+import {nvD3} from 'ng2-nvd3';
 //import {nvD3} from '//cdn.rawgit.com/krispo/ng2-nvd3/v1.1.0/lib/ng2-nvd3.ts';
 import { Observable }       from 'rxjs/Observable';
 

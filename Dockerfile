@@ -9,6 +9,8 @@ RUN cd /src; npm install
 
 # Bundle app source
 COPY . /src
+RUN cd /src;
 
-EXPOSE  8080
+EXPOSE  3000
+
 CMD ["npm", "start"]
