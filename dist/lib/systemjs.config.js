@@ -14,8 +14,8 @@
     '@angular':                   'node_modules/@angular',
     'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
     'rxjs':                       'lib/rxjs',
-    'ts':                         'https://npmcdn.com/plugin-typescript@4.0.10/lib/plugin.js',
-    'typescript':                 'https://npmcdn.com/typescript@1.8.10/lib/typescript.js',
+    'ts':                         'https://unpkg.com/plugin-typescript@4.0.10/lib/plugin.js',
+    'typescript':                 'https://unpkg.com/typescript@1.8.10/lib/typescript.js',
     "ng2-nvd3":                   'lib/ng2-nvd3.js'
   };
 
@@ -41,7 +41,7 @@
   // Add map entries for each angular package
   // only because we're pinning the version with `ngVer`.
   ngPackageNames.forEach(function(pkgName) {
-    map['@angular/'+pkgName] = 'https://npmcdn.com/@angular/' + pkgName + ngVer;
+    map['@angular/'+pkgName] = 'https://unpkg.com/@angular/' + pkgName + ngVer;
   });
 
   // Add package entries for angular packages
